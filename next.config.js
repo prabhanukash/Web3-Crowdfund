@@ -5,6 +5,7 @@
 
 /** @type {import("next").NextConfig} */
 const config = {
+  transpilePackages: ['@t3-oss/env-nextjs'],
   images: {
     remotePatterns: [
       {
